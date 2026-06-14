@@ -1,1 +1,3 @@
-![Handwritten Solution] (Handwritten solution.jpeg)
+# Handwritten Notes
+
+![Handwritten Solution](handwritten-solution.jpeg)
