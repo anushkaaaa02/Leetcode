@@ -22,28 +22,3 @@ The common factors of 25 and 30 are `1, 5`.
 
 ---
 
-## Approach
-
-- Iterate from `1` to `min(a, b)`.
-- Check whether the current number divides both `a` and `b`.
-- If it does, increment the count.
-- Return the final count.
-
----
-
-## Java Solution
-
-```java
-class Solution {
-    public int commonFactors(int a, int b) {
-        int count = 0;
-
-        for (int i = 1; i <= Math.min(a, b); i++) {
-            if (a % i == 0 && b % i == 0) {
-                count++;
-            }
-        }
-
-        return count;
-    }
-}
