@@ -1,0 +1,1 @@
+![Handwritten Solution] (Handwritten solution.jpeg)
