@@ -1,0 +1,21 @@
+class Solution{
+    public int[] sortedSquares(int[] nums){
+        int[] result = new int[nums.length];
+        for(int i = 0; i < nums.length; i++){
+            result[i] = nums[i] * nums[i];
+        }
+        int head = 0;
+        int tail = result.length - 1;
+        for(int pos = nums.length - 1; pos >= 0; pos--){
+            if(result[head] > result[tail]){
+                result[pos] = result[head];
+                head++;
+            }else{
+                result[pos] = result[tail];
+                tail--;
+            }
+        }
+        return result;
+    }
+
+}
