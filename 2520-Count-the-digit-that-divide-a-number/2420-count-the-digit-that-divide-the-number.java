@@ -1,5 +1,5 @@
-public class 2420-Solution{
-    int countDigits(int nums){
+ class Solution{
+    public int countDigits(int nums){
         int count = 0;
         int original = nums;
         while(nums>0){
